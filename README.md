@@ -1,2 +1,2 @@
-# handa
-Web page for HAnDA Symposium
+# conference
+Responsive HTML5 Bootstrap 3 template for Event Site
