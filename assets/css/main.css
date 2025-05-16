@@ -467,28 +467,46 @@ ul p{
  * 6.3 Section: Speaker
  */
 .speaker {
-  min-height: 100vh;  
-  width: 100%; 
   display: flex;
-
+  
+}
+#speakers .row {
+  margin-bottom: 30px;
+}
+.speaker-box {
+  background-color: #222; /* Example background */
+  color: whitesmoke;
+  padding: 20px;
+  border-radius: 12px;
+  height: 220px; /* 🔧 Fixed height */
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+.speaker-box:hover {
+  transform: scale(1.03);
 }
 
-.speaker h4 {
-  margin-top: 15px;
-  margin-bottom: 5px;
+.speaker-box h4 {
+  margin-bottom: 10px;
 }
-.speaker p {
-  margin-bottom: 5px;
+
+.speaker-box p {
+  margin: 0 0 10px 0;
+  font-size: 0.95rem;
+  text-align: center;
 }
-/* Ensure `.fi` has size and proper styling */
+
 .fi {
-  background-size: contain;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  display: inline-block;
   width: 40px;
   height: 30px;
+  background-size: cover;
+  background-position: center;
 }
+
 .fi:before {
   content: " ";
 }
@@ -514,14 +532,59 @@ ul p{
 .fi-ir {
   background-image: url(../images/flags/4x3/ir.svg);
 }
-.fi-hr {
-  background-image: url(../images/flags/4x3/hr.svg);
+.fi-tr {
+  background-image: url(../images/flags/4x3/tr.svg);
 }
+.fi-ro {
+  background-image: url(../images/flags/4x3/ro.svg);
+}
+.fi-br {
+  background-image: url(../images/flags/4x3/br.svg);
+}
+.fi-ne {
+  background-image: url(../images/flags/4x3/ne.svg);
+}
+.fi-kw {
+  background-image: url(../images/flags/4x3/kw.svg);
+}
+.fi-ae {
+  background-image: url(../images/flags/4x3/ae.svg);
+}
+
+.fi-ca {
+  background-image: url(../images/flags/4x3/ca.svg);
+}
+.fi-pl {
+  background-image: url(../images/flags/4x3/pl.svg);
+}
+
+
 
 /* Default flag */
 .fi-xx {
   background-image: url("../images/flags/4x3/xx.svg");
 }
+@media (max-width: 768px) {
+  .speaker-box {
+    height: 200px;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .speaker-box {
+    height: 180px;
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+  .speaker-box h4 {
+    font-size: 1rem;
+  }
+  .speaker-box p {
+    font-size: 0.85rem;
+  }
+}
+
 /* 
  * 6.6 Section: Schedule
  */
