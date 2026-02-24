@@ -1,0 +1,202 @@
+\documentclass[10pt]{article}
+
+% Primary packages
+\usepackage[utf8]{inputenc}  % Ensure the document encoding is UTF-8
+\usepackage[T1]{fontenc}     % Proper font encoding
+\usepackage[english]{babel}  % English language support
+
+% Classic thesis font and layout
+\usepackage[nochapters,pdfspacing,tocaligned]{classicthesis}
+\usepackage{imakeidx}
+\makeindex
+
+
+% Geometry settings for page size and margins
+\usepackage{geometry}
+\geometry{a4paper}  % Input encoding
+\usepackage{textcomp}  
+\usepackage{graphicx}
+\usepackage{eso-pic}         % For background images
+\usepackage{xcolor}
+\usepackage{pagecolor}
+\usepackage{tikz}
+\usepackage{hyperref}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+% BACKGROUND GRADIENT 
+% Fascia sfumata blu → bianco dall'alto verso il basso
+\newcommand\TopGradientBar{%
+  \AddToShipoutPictureBG*{%
+    \begin{tikzpicture}[remember picture, overlay]
+      \path[top color=blue!20, bottom color=white]
+        ([yshift=-0cm]current page.north west) rectangle ([yshift=-6cm]current page.north east);
+    \end{tikzpicture}
+  }
+}
+% ABSTRACT ENVIRONMENTS
+%
+\newenvironment{abstract_online}[4] % {title}{author}{affiliation}{type}
+{
+  \phantomsection
+ % Unnumbered section with just the title visible in the document
+  \addcontentsline{toc}{section}{\textbf{#1} \textit{-- #2}} % Add to TOC WITHOUT number
+	\begin{center}
+	\noindent{\normalsize \textbf{#1}}\par\vspace{0.3em}
+    \noindent{\normalsize \itshape #2}\par\vspace{0.3em}  % Author in italics
+    \noindent{\small \textsc{#3}}\par\vspace{0.5em}  % Affiliation in small caps
+    \noindent{\footnotesize #4}
+	\end{center}
+  \vspace{0.5em}
+}
+{}
+
+\newcommand{\abstractseparator}{%
+  \par\vspace{1.5em}
+  \begin{center}
+    \textcolor{blue!60}{\rule{0.3\textwidth}{0.6pt}}%
+    \quad
+    \textbf{\large HAnDA 2025}%
+    \quad
+    \textcolor{blue!60}{\rule{0.3\textwidth}{0.6pt}}
+  \end{center}
+  \vspace{1.5em}
+}
+
+
+% Add a horizontal banner background (2 images side by side)
+\newcommand{\AddBannerBackground}{%
+  \AddToShipoutPictureBG*{%
+    \put(0,425){% approx. 15cm from top in pt
+      \includegraphics[width=10.5cm,height=5cm]{/home/enh/handa/assets/images/backgrounds/UNG.jpg}
+    }
+    \put(298,425){% 10.5cm ~ 298pt
+      \includegraphics[width=10.5cm,height=5cm]{/home/enh/handa/assets/images/backgrounds/UnAth.jpg}
+    }
+  }
+}
+
+\begin{document}
+\pagestyle{empty}  % Disable page numbers throughout
+
+% Title page
+\thispagestyle{empty}  % Title page: no number
+\newpage
+\pagestyle{plain} \TopGradientBar
+\AddBannerBackground
+
+\vspace*{12.5cm}
+\begin{center}
+  {\Large \textbf{The 5th Symposium on Hypercompositional Algebra new Developments and Applications}}\\[1cm]
+  {\Huge \textbf{Book of Abstracts}}\\[1cm]
+  {\large \textit{June 2025}}
+\end{center}
+\vfill
+
+% === Bottom-left Logo ===
+\AddToShipoutPictureFG*{%
+  \put(5cm,5cm){% 1cm from left, ~26cm from top
+    \includegraphics[width=4cm]{/home/enh/handa/assets/images/ung_logo.png}
+  }
+  \put(12.5cm,5cm){% ~14cm from left
+    \includegraphics[width=5cm]{/home/enh/handa/assets/images/uk_logo.png}
+  }
+}
+\renewcommand{\contentsname}{Table of Contents}  % Optional: change the default name
+\newpage
+\tableofcontents
+\newpage
+\phantomsection
+\input{abstracts/Massouros.tex}
+
+\abstractseparator
+
+\input{abstracts/Charalampos.tex}
+
+\abstractseparator
+
+\input{abstracts/Vossos.tex}
+
+\abstractseparator
+
+\input{abstracts/Burcu.tex}
+
+\abstractseparator
+
+\input{abstracts/Altahan.tex}
+
+\abstractseparator
+
+\input{abstracts/Turkmen.tex}
+
+\abstractseparator
+
+\input{abstracts/Antonios.tex}
+
+\abstractseparator
+
+\input{abstracts/Bercea.tex}
+
+\abstractseparator
+
+\input{abstracts/anton.tex}
+
+\abstractseparator
+
+\input{abstracts/Temitope.tex}
+
+\abstractseparator
+
+\input{abstracts/Oyeyemi.tex}
+
+\abstractseparator
+
+\input{abstracts/Mariano.tex}
+
+\abstractseparator
+
+\input{abstracts/Andromeda.tex}
+
+\abstractseparator
+
+\input{abstracts/Talotti.tex}
+
+\abstractseparator
+
+\input{abstracts/Hanna.tex}
+
+\abstractseparator
+
+\input{abstracts/Linzi.tex}
+
+\abstractseparator
+
+\input{abstracts/Hashem.tex}
+
+\abstractseparator
+
+\input{abstracts/Marcelo_Coniglio.tex}
+
+\abstractseparator
+
+\input{abstracts/Kaique_Roberto.tex}
+
+\abstractseparator
+
+\input{abstracts/Guilherme.tex}
+
+\abstractseparator
+
+\input{abstracts/Violeta.tex}
+
+\abstractseparator
+
+\input{abstracts/Irina.tex}
+
+\end{document}
+

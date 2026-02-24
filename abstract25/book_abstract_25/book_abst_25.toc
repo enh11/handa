@@ -1,0 +1,23 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\textbf {On the class of Transposition Hypergroups} \textit {-- Christos Massouros and Gerasimos Massouros}}{3}{section*.2}%
+\contentsline {section}{\textbf {AI Tools and the Exploration of Hypercompositional Structures in Algebra} \textit {-- Charalampos Tsitouras}}{3}{section*.3}%
+\contentsline {section}{\textbf {Can Hypercompositional Algebra contribute to the resolution of the unsolved problems of modern Physics?} \textit {-- Spyridon Vossos and Elias Vossos}}{4}{section*.4}%
+\contentsline {section}{\textbf {Supplementing Krasner Hypermodule} \textit {-- Burcu Nişancı Türkmen}}{4}{section*.5}%
+\contentsline {section}{\textbf {Anti-Ideal-Theory in Algebraic Structures and their Fuzzifications} \textit {-- Al-Tahan Madeleine}}{5}{section*.6}%
+\contentsline {section}{\textbf {On Normal Projective (Injective) Krasner Hypermodules} \textit {-- Erg{\"u}l T{\"u}rkmen}}{5}{section*.7}%
+\contentsline {section}{\textbf {Fuzzy Graph Hyperoperations} \textit {-- Antonios Kalampakas}}{5}{section*.8}%
+\contentsline {section}{\textbf {Construction of finite fields and hyperfields} \textit {-- Bianca-Liana Bercea}}{6}{section*.9}%
+\contentsline {section}{\textbf {Some classes of hypernear-rings} \textit {-- Sanja Jančić-Rašović, Anton Nuculović}}{6}{section*.10}%
+\contentsline {section}{\textbf {Analysis of Weak Associativity in Some Algebraic Hypercompositional Structures that Represent Dismutation Reactions} \textit {-- Temitope Gbolahan JAIYEOLA, Kehinde Gabriel ILORI and Oyeyemi Oluwaseyi OYEBOLA}}{7}{section*.11}%
+\contentsline {section}{\textbf {Analysis of Weak Associativity in Some Algebraic Hypercompositional Structures that Represent Dismutation Reactions} \textit {-- Oyeyemi Oluwaseyi Oyebola}}{7}{section*.12}%
+\contentsline {section}{\textbf {Linear (Multi) Algebra I: Linear Systems, Matrices and Vector Spaces over Superfields} \textit {-- Kaique Matias de Andrade Roberto\\ {\small Faculdade Einstein, S\~ao Paulo, Brazil} \\ Hugo Rafael de Oliveira Ribeiro\\ {\small State University of Mato Grosso do Sul, Nova Andradina, Brazil} \\ Kaique Ribeiro Prates Santos\\ {\small University of S\~ao Paulo, S\~ao Paulo, Brazil} \\ Hugo Luiz Mariano \\ {\small University of S\~ao Paulo, S\~ao Paulo, Brazil} }}{8}{section*.13}%
+\contentsline {section}{\textbf {Fuzzy aspects in biological inheritance} \textit {-- Andromeda Pătrașcu Sonea}}{8}{section*.14}%
+\contentsline {section}{\textbf {Encoding hypercompositional structures through binary strings} \textit {-- Enrico Talotti}}{9}{section*.15}%
+\contentsline {section}{\textbf {On the Generation of Finite Real Hyperfields with Cyclic Positive Cones} \textit {-- Hanna Stojałowska, Katarzyna Kuhlmann and Dawid Kędzierski}}{9}{section*.16}%
+\contentsline {section}{\textbf {On the notion of algebraically closed hyperfields} \textit {-- Alessandro Linzi}}{9}{section*.17}%
+\contentsline {section}{\textbf {Support of a Hypermodule} \textit {-- Hashem Bordbar }}{10}{section*.18}%
+\contentsline {section}{\textbf {On Morgado and Sette's Implicative hyperlattices as models of da Costa logic $C_\omega $} \textit {-- Marcelo E. Coniglio}}{10}{section*.19}%
+\contentsline {section}{\textbf {Hyper swap structures} \textit {-- Kaique M. Roberto}}{11}{section*.20}%
+\contentsline {section}{\textbf {Weakly free multialgebras} \textit {-- Guilherme Toledo}}{11}{section*.21}%
+\contentsline {section}{\textbf {The Fuzzy Grade of a certain class of Hypergroups} \textit {-- Violeta Fotea}}{12}{section*.22}%
+\contentsline {section}{\textbf {Arithmetic functions on complete hypergroups} \textit {-- Irina Cristea}}{12}{section*.23}%
