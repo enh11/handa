@@ -531,11 +531,11 @@ background: #121212;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 2rem; /* spazio verticale tra i blocchi */
-  height: 220px; /* 🔧 Fixed height */
+  height: 190px; /* 🔧 Fixed height */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .speaker-box:hover {
   transform: scale(1.03);
@@ -550,17 +550,45 @@ background: #121212;
 
   text-align: center;
 }
-.participant-list .speaker-box h4 {
-  font-size: 1rem;
+.participant-list {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#participants .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.participant-box {
+  background: #222;
+  color: #fff;
+
+  border-radius: 12px;
+  padding: 6px;
+
+  height: 80px;              /* fixed badge height */
+  width: 100%;               /* fill grid cell */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  text-align: center;
+
+margin-bottom: 1em;}
+.participant-box h4 {
+  font-size: 0.7rem;
+  margin: 0 0 2px;
 }
 
-.participant-list .speaker-box p {
-  font-size: 0.85rem;
+.participant-box p {
+  font-size: 0.6rem;
+  margin: 0 0 2px;
 }
 
-.participant-list .fi {
-  width: 32px;
-  height: 24px;
+.participant-box .fi {
+  width: 16px;
+  height: 12px;
 }
 .participant-list .speaker-box {
   padding: 12px;
